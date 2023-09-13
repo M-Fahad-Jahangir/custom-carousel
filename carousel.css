@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.slide1{
+    position: absolute;
+    transition: translate 0.5s, z-index 0.5s, opacity 0.5s;
+    z-index: 1;
+}
+.slide2{
+    position: absolute;
+    transition: translate 0.5s, z-index 0.5s, opacity 0.5s;
+    translate: 50px 100px;
+    opacity: 0.6;
+    z-index: 0;
+}
