@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/carousel.css" />
+    <script src="./Js/carousel.js"></script>
+    <title>custom Carousel</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="page1" class="slide1">
+
+            <div>
+                <img class="avatar" src="./images/person.png" width="70px" height="70px" />
+            </div>
+            <p class="card-paragraph">
+                “To make something special you just have to believe it's special”
+            </p>
+            <p class="card-caption">
+                Movie: Kung-fu Panda
+            </p>
+            <p class="card-footer-text">
+                ~ Li Shang
+            </p>
+        </div>
+
+
+        <div id="page2" class="slide2">
+
+            <div position="absolute">
+                <img class="avatar" src="./images/person.png" width="70px" height="70px" />
+            </div>
+            <p class="card-paragraph">
+                “Believe you can and you're halfway there”
+            </p>
+            <p class="card-caption">
+                Quote
+            </p>
+            <p class="card-footer-text">
+                ~ Theodore Roosevelt
+            </p>
+        </div>
+    </div>
+    <div id="toggle-div">
+        <button
+            style="background: linear-gradient(to right, rgb(120, 173, 220), rgb(79, 166, 243)); cursor: pointer; border: 2px solid rgb(120, 173, 220); border-radius: 10px; font-size: 25px; padding: 10px 20px; transition: background 0.3s;"
+            onclick="toggleClass()" onmouseover="this.style.background='aliceblue'"
+            onmouseout="this.style.background='linear-gradient(to right, rgb(120, 173, 220), rgb(79, 166, 243))'">
+            Toggle
+        </button>
+
+    </div>
+
+</body>
+
+</html>

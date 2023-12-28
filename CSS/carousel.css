@@ -1,0 +1,55 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.avatar{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+}
+.slide1 {
+    position: absolute;
+    background-color: aliceblue;
+    width: clamp(300px, 50vw, 700px);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.5s, z-index 0.5s, opacity 0.5s;
+    z-index: 1;
+}
+
+.slide2 {
+    position: absolute;
+    background-color: aliceblue;
+    width: clamp(300px, 50vw, 700px);
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s, z-index 0.5s, opacity 0.5s;
+    transform: translate(50px, 100px);
+    opacity: 0.6;
+    z-index: 0;
+}
+.card-paragraph{
+    font-family:sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #161616;
+    font-size: clamp(18px, 5vh, 26px);
+}
+.card-caption{
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    color: #161616;
+    font-size: clamp(12px, 2vh, 20px);
+}
+.card-footer-text{
+    color: #484848;
+    font-size: clamp(12px, 2vh, 20px);
+}
+#toggle-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
